@@ -1,0 +1,25 @@
+************************************************************************
+*       I N F O R M A C I Ó N   G E N E R A L                          *
+************************************************************************
+*^ Programa              : ZHCCPE_R0046
+*^ Desarrollado por      : KLMC
+*^ Fecha                 : 28.05.2019
+*^ Módulo                : HCM
+*^ Propósito             : Descarga archivos .txt
+*                          WS - Interfaz SAP - 2Personnel
+*^ Otras consideraciones :
+************************************************************************
+*      H I S T O R I A L    D E    M O D I F I C A C I O N E S         *
+************************************************************************
+*^ Fecha: <DD.MM.YYYY>    Autor: <USERID>
+*^ Marca: <@nnnn -->número correlativo de 4 dígitos>
+*^ Descripción del cambio: <Descripción del Cambio>
+************************************************************************
+
+REPORT zhccpe_r0046 NO STANDARD PAGE HEADING LINE-SIZE  105
+                    LINE-COUNT 40 MESSAGE-ID pg.
+
+INCLUDE:  zhccpe_r0046_top, "Variables globales, clases y parámetros selección
+          zhccpe_r0046_sel, "Pantalla de selección
+          zhccpe_r0046_mai, "Eventos
+          zhccpe_r0046_f01. "Implementación de Subrutinas
